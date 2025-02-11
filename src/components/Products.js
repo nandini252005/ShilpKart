@@ -28,7 +28,7 @@ export default function Products()
         <div className="product">
             <img src={toy} alt="Terracotta Toy"/>
             <h2>TerraSculpt</h2>
-            <p>A terracotta sculpture with elegant, earthy design.</p>
+            <p>A terracottaa sculpture with elegant, earthy design.</p>
             <p className='price'>Price : 900/-</p>
             <button className="add-to-cart">Add to Cart</button>
         </div>
