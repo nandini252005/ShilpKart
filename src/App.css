@@ -16,6 +16,7 @@ body {
 }
 .logo-container{
   display: flex;
+  
 
 }
 .logo-container>img{
@@ -62,9 +63,16 @@ body {
 .great-deals {
   text-align: center;
   padding: 30px;
-  background-color: #fff;
+  background-color: beige;
 }
-
+.great-deals>h2{
+  background-color:rgb(58, 12, 12);
+  padding: 30px;
+  width: 72%;
+  margin-left: 12%;
+  border-radius: 15px;
+  color: bisque;
+}
 .deals-slider {
   display: flex;
   align-items: center;

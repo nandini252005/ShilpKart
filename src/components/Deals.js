@@ -8,25 +8,25 @@ export default function Deals()
     return(
       <>
       <section className="great-deals">
-      <h2>Your Great Deals are here!</h2>
+      <h2>Buy now or regret later!</h2>
       <div className="deals-slider">
           <button className="slider-btn left" onclick="prevSlide()">&#10094;</button>
           <div className="deals-container">
               <div className="deal">
                   <img src={deals4} alt="Deal 1" />
-                  <p>Silk Sales!</p>
+                  <p>Buy 1 Get 42 free :)</p>
               </div>
               <div className="deal">
                   <img src={deals2} alt="Deal 2" />
-                  <p>Buy 1 Ceramic Get 1 Free</p>
+                  <p>Purchase now, become a certified Python Developer</p>
               </div>
               <div className="deal">
                   <img src={deals1} alt="Deal 3" />
-                  <p>Discounted Fabrics</p>
+                  <p>Stop wasting time and buy</p>
               </div>
               <div className="deal">
                   <img src={deals3} alt="Deal 3" />
-                  <p>Discounted Fabrics</p>
+                  <p>Order broken items for free</p>
               </div>
               
           </div>

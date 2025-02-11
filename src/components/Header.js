@@ -9,7 +9,7 @@ export default function Header() {
         <React.Fragment>
             <header className="header">
                 <div className='logo-container'>
-                <img src={logo} alt='logo' />
+                <img className="logo-img" src={logo} alt='logo' />
                 <h1 className="logo">ShilpKart</h1> 
                 </div>
                 <nav className="header-buttons">
