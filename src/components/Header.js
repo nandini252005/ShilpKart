@@ -10,8 +10,10 @@ export default function Header() {
             <header className="header">
                 <div className='logo-container'>
                 <img className="logo-img" src={logo} alt='logo' />
-                <h1 className="logo">ShilpKart</h1> 
+                <h1 className="logo">ShilpKart</h1> <br>
+                </br>  <h5>Crafted With Pyaar</h5>              
                 </div>
+            
                 <nav className="header-buttons">
                     <button>Home</button>
                     <button>Crafts</button>

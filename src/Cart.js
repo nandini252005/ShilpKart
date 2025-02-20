@@ -7,7 +7,7 @@ function Cart()  {
     {
       id: 1,
       name: 'MetalAura  ',
-      price: 999,
+      price: 777,
       quantity: 1,
     },
     {
@@ -19,7 +19,7 @@ function Cart()  {
     {
       id: 3,
       name: 'CozyCraft',
-      price: 999,
+      price: 888,
       quantity: 1,
     },
   ]);

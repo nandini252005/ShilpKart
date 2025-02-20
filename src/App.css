@@ -24,6 +24,12 @@ body {
   border-radius: 70px;
   margin-left: 65px;
 }
+.logo-container>h5{
+  margin-top: 50px;
+  margin-left: -50px;
+  margin-bottom: 10px;
+  color: rgba(240, 248, 255, 0.675);
+}
 .logo {
   font-size: 24px;
   font-weight: bold;
@@ -60,64 +66,11 @@ body {
   color: white;
 }
 
-.great-deals {
-  text-align: center;
-  padding: 30px;
-  background-color: beige;
+.products-head{
+  text-shadow: 3px 2px 5px gray;
+  color:rgba(58, 12, 12, 0.953);
+  font-size: 32px;
 }
-.great-deals>h2{
-  background-color:rgb(58, 12, 12);
-  padding: 30px;
-  width: 72%;
-  margin-left: 12%;
-  border-radius: 15px;
-  color: bisque;
-}
-.deals-slider {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  max-width: 1000px;
-  margin: auto;
-  overflow: hidden;
-}
-
-.deals-container {
-  display: flex;
-}
-
-.deal {
-  min-width: 250px;
-  margin: 10px;
-  text-align: center;
-}
-
-.deal img {
-  width: 100%;
-  border-radius: 10px;
-}
-
-.slider-btn {
-  position: absolute;
-  background: beige;
-  color: rgb(1, 24, 11);
-  border: none;
-  padding: 10px;
-  cursor: pointer;
-  font-size: 24px;
-  border-radius: 5px;
-}
-
-.left {
-  left: 10px;
-}
-
-.right {
-  right: 10px;
-}
-
-
 .product-container, .tc-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));

@@ -22,14 +22,14 @@ export default function Products()
             <img src={pottery} alt="Pottery and Ceramics"/>
             <h2>ClayDew</h2>
             <p>A delicate pottery piece that brings nature’s freshness indoors.</p>
-            <p className='price'>Price : 900/-</p>
+            <p className='price'>Price : 888/-</p>
             <button className="add-to-cart">Add to Cart</button>
         </div>
         <div className="product">
             <img src={toy} alt="Terracotta Toy"/>
             <h2>TerraSculpt</h2>
             <p>A terracottaa sculpture with elegant, earthy design.</p>
-            <p className='price'>Price : 900/-</p>
+            <p className='price'>Price : 999/-</p>
             <button className="add-to-cart">Add to Cart</button>
         </div>
         <div className="product">
@@ -43,35 +43,35 @@ export default function Products()
             <img src={wood} alt="Crafted Wood"/>
             <h2>WoodWhispers</h2>
             <p>Crafted from wood, reflecting artistry and nature.</p>
-           <p className='price'>Price : 900/-</p>
+           <p className='price'>Price : 999/-</p>
             <button className="add-to-cart">Add to Cart</button>
         </div>
         <div className="product">
             <img src={leaf} alt="Leaves"/>
             <h2>LeafTales</h2>
             <p>A touch of nature, woven into every piece.</p>
-           <p className='price'>Price : 900/-</p>
+           <p className='price'>Price : 989/-</p>
             <button className="add-to-cart">Add to Cart</button>
         </div>
         <div className="product">
             <img src={metal} alt="Crafted metal"/>
             <h2>MetalAura</h2>
             <p>Intricate metal pieces whisper stories of strength and beauty.</p>
-           <p className='price'>Price : 900/-</p>
+           <p className='price'>Price : 777/-</p>
             <button className="add-to-cart">Add to Cart</button>
         </div>
         <div className="product">
             <img src={glass} alt="Crafted Glass"/>
             <h2>GlassGlimmer</h2>
             <p>Handcrafted glass creations that sparkle with artistry and elegance.</p>
-           <p className='price'>Price : 900/-</p>
+           <p className='price'>Price : 999/-</p>
             <button className="add-to-cart">Add to Cart</button>
         </div>
         <div className="product">
             <img src={wool} alt="Wool"/>
             <h2>CozyCraft</h2>
             <p>Warmth and elegance in every comforting stitch.</p>
-           <p className='price'>Price : 900/-</p>
+           <p className='price'>Price : 888/-</p>
             <button className="add-to-cart">Add to Cart</button>
         </div>
     </section>
