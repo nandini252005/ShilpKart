@@ -1,6 +1,6 @@
-// src/Cart.js
+
 import React, { useState } from 'react';
-import './Cart.css'; // Import styles for the cart page
+import './Cart.css'; 
 
 function Cart()  {
   const [cartItems, setCartItems] = useState([

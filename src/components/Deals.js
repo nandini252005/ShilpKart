@@ -1,14 +1,14 @@
 import React, { useState, useEffect, useRef } from "react";
-import "./GreatDeals.css"; // Import the CSS file
+import "./GreatDeals.css"; 
 import deals1 from "../images/deals1.png"; 
 import deals2 from "../images/deals2.png";
 import deals3 from "../images/deals3.png";
 import deals4 from "../images/deals4.png";
 
 const Deals = () => {
-  const images = [deals4, deals2, deals1, deals3]; // Maintain image order
+  const images = [deals4, deals2, deals1, deals3]; 
   const [scrollPosition, setScrollPosition] = useState(0);
-  const scrollAmount = 300; // Adjust based on the width of each deal
+  const scrollAmount = 300; 
   const dealsContainerRef = useRef(null);
 
   useEffect(() => {
@@ -31,7 +31,7 @@ const Deals = () => {
   const scrollRight = () => {
     if (dealsContainerRef.current) {
       if (scrollPosition >= dealsContainerRef.current.scrollWidth - dealsContainerRef.current.clientWidth) {
-        // If at end, reset to start
+
         setScrollPosition(0);
       } else {
         setScrollPosition((prev) => Math.min(prev + scrollAmount, dealsContainerRef.current.scrollWidth - dealsContainerRef.current.clientWidth));
