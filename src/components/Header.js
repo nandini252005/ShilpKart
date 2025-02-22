@@ -11,7 +11,7 @@ export default function Header() {
                 <div className='logo-container'>
                 <img className="logo-img" src={logo} alt='logo' />
                 <h1 className="logo">ShilpKart</h1> <br>
-                </br>  <h5>Crafted With Pyaar</h5>              
+                </br>  <h5>Every Craft Tells a Story</h5>              
                 </div>
             
                 <nav className="header-buttons">
