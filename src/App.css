@@ -111,6 +111,15 @@ body {
   width: 42%;
   margin-left: 25%;
 }
+.hidden{
+  padding: 15px;
+  margin-top: -10px;
+  margin-bottom: 15px;
+  background-color: #95ffaa;
+  width: 50%;
+  margin-left: 17%;
+  border-radius: 20px;
+}
 .tc-head, .products-head{
   text-align: center;
 }

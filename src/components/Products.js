@@ -78,7 +78,7 @@ export default function Products()
       <p className="price">Price: 888/-</p>
       
       {/* Show the div only if isVisible is true */}
-      {isshown && <div className="hidden">Added to cart</div>}
+      {isshown && <div className="hidden">Added to cart ✅</div>}
 
       <button className="add-to-cart" onClick={addToCart}>
         Add to Cart
