@@ -7,11 +7,15 @@ import leaf from '../images/leaf.png'
 import metal from '../images/metal.png'
 import glass from '../images/glass.png'
 import wool from '../images/wool.png'
-
-
+import { useState } from "react";
 
 export default function Products()
 {
+    const [isshown, setshow] = useState(false);
+    const addToCart = () => {
+        setshow(true);
+    }
+
     return(
         <>
         <h2 className='products-head'>
@@ -68,12 +72,18 @@ export default function Products()
             <button className="add-to-cart">Add to Cart</button>
         </div>
         <div className="product">
-            <img src={wool} alt="Wool"/>
-            <h2>CozyCraft</h2>
-            <p>Warmth and elegance in every comforting stitch.</p>
-           <p className='price'>Price : 888/-</p>
-            <button className="add-to-cart">Add to Cart</button>
-        </div>
+      <img src={wool} alt="Wool" />
+      <h2>CozyCraft</h2>
+      <p>Warmth and elegance in every comforting stitch.</p>
+      <p className="price">Price: 888/-</p>
+      
+      {/* Show the div only if isVisible is true */}
+      {isshown && <div className="hidden">Added to cart</div>}
+
+      <button className="add-to-cart" onClick={addToCart}>
+        Add to Cart
+      </button>
+    </div>
     </section>
         
         </>

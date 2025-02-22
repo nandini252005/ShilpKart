@@ -4,9 +4,11 @@ import deals1 from "../images/deals1.png";
 import deals2 from "../images/deals2.png";
 import deals3 from "../images/deals3.png";
 import deals4 from "../images/deals4.png";
+import deals5 from "../images/deals5.png";
+import deals6 from "../images/deals6.png";
 
 const Deals = () => {
-  const images = [deals4, deals2, deals1, deals3]; 
+  const images = [deals4, deals2, deals1, deals3, deals5, deals6]; 
   const [scrollPosition, setScrollPosition] = useState(0);
   const scrollAmount = 300; 
   const dealsContainerRef = useRef(null);
@@ -48,7 +50,7 @@ const Deals = () => {
           {images.map((img, index) => (
             <div key={index} className="deal">
               <img src={img} alt={`Deal ${index + 1}`} />
-              <p>{["Buy 1 Get 42 free :)", "Purchase now, become a certified Python Developer", "Stop wasting time and buy", "Order broken items for free"][index]}</p>
+              <p><strong>{["Buy 1 Get 42 free :)", "Purchase now, become a certified Python Developer", "Stop wasting time and buy", "Order broken items for free", "Ladies, Assemble!", "Free Chairs for your granny"][index]}</strong></p>
             </div>
           ))}
         </div>
